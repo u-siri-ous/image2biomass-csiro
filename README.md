@@ -28,26 +28,31 @@ Users report it contains about 800 images. It will have some metadata missing.
 ├── EDA + baseline/ 
 │   ├── experimental/
 │   │   ├── csiro-dataloader-model-GPU.ipynb
+|   |   ├── csiro-dataloader-model-GPU-2.ipynb
 │   │   └── csiro-dataloader-model.ipynb
 │   ├── csiro-baseline-nb.ipynb
 │   ├── csiro-baseline-submission.ipynb
 │   └── csiro-eda-preprocessing.ipynb
 ├── notebooks/
 │   ├── inference-nb.ipynb
+|   ├── benchmark-nb.ipynb
 │   └── training-nb.ipynb
 ├── .gitattributes
 ├── .gitignore
-├── csiro-dataloader-model-GPU-2.ipynb
 ├── LICENSE
 └── README.md
 ```
 
-`EDA + baseline/` contains the data analysis code and the baseline formation, with util notebooks in `experimental/`.
+`EDA + baseline/` contains the data analysis code and the baseline formation.
+
+Notebooks in `experimental/` did not make it into submissions, but capture the early stages of our work.
 
 `/notebooks` contains the training notebook, the benchmark notebook and the inference notebook.
 
-These resources are also publicly available on Kaggle:
+## Useful links
 
-- [Main Training notebook](https://www.kaggle.com/code/siriasannino/csiro-nb), including every model weight and trial and error
+- [Main Training notebook](https://www.kaggle.com/code/siriasannino/csiro-nb), including every model weight and trial and error in each of the versions.
+The submission notebook for each successful version is similar to the one in the directory.
 - [Page of the Kaggle competition](https://www.kaggle.com/competitions/csiro-biomass)
 - [Dataset](https://www.kaggle.com/competitions/csiro-biomass/data)
+- [Paper](https://arxiv.org/abs/2510.22916)
