@@ -56,3 +56,5 @@ The submission notebook for each successful version is similar to the one in the
 - [Page of the Kaggle competition](https://www.kaggle.com/competitions/csiro-biomass)
 - [Dataset](https://www.kaggle.com/competitions/csiro-biomass/data)
 - [Paper](https://arxiv.org/abs/2510.22916)
+
+Competiton has ended, and we finished with a ranking of 565/3802 (approx top 15%).
